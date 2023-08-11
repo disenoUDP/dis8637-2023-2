@@ -11,7 +11,7 @@
 - semestre: segundo semestre 2023
 - profesor titular: [sergio majluf](https://github.com/sergiomajluf/)
 - profesore auxiliar: [aarón montoya-moraga](https://github.com/montoyamoraga/)
-- ayudante: TODO
+- ayudante: [andrés martin](https://github.com/AndresMartinM/)
 - estudiantes inscritos: TODO
 
 ## repositorio
