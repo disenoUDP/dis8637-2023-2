@@ -65,4 +65,5 @@ el segundo semestre 2023 empieza el día lunes 07 de agosto 2023 y finaliza el d
 
 ## bibliografía
 
-- TODO
+- https://www.tinkercad.com/
+- https://wokwi.com/
