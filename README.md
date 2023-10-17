@@ -52,9 +52,9 @@ el segundo semestre 2023 empieza el día lunes 07 de agosto 2023 y finaliza el d
 | no hay clase                 | 2023-09-19    | semana de receso fiestras patrias |
 | [clase-06](clases/clase-06/) | 2023-09-26    | no hay entrega, por ser semana post-receso |
 | [clase-07](clases/clase-07/) | 2023-10-03    | TODO |
-| [clase-08](clases/clase-08/) | 2023-10-10    | TODO |
-| [clase-09](clases/clase-09/) | 2023-10-17    | TODO |
-| [clase-10](clases/clase-10/) | 2023-10-24    |  no hay entrega de taller, por solemnes 02 |
+| [clase-08](clases/clase-08/) | 2023-10-10    | segunda entrega: código y presentación |
+| [clase-09](clases/clase-09/) | 2023-10-17    | segunda entrega: documentacioón |
+| [clase-10](clases/clase-10/) | 2023-10-24    | no hay entrega de taller, por solemnes 02 |
 | no hay clase                 | 2023-10-31    | receso corto |
 | [clase-11](clases/clase-11/) | 2023-11-07    | TODO |
 | [clase-12](clases/clase-12/) | 2023-11-14    | TODO |
