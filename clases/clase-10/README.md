@@ -6,6 +6,9 @@ recetas
 
 
 - sensor pir
+- sensor potenciometro
+
+- sensor pir
 - reproducir audio (buscaré shield, y quizas idem en raspberry
 - celda de carga 
 - motor vibrador
