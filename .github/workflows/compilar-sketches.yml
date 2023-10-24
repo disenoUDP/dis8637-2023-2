@@ -1,0 +1,39 @@
+# Compilar sketches de Arduino
+
+name: compilar sketches
+
+# control de cuando corre laccion
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches:
+      - main
+    paths:
+      - clases/clase-10/recetas/**
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # este workflow contiene un trabajo llamado "compilar-sketches"
+  compile-sketches:
+    # tipo de sistema operativo para el trabajo
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be run as part of the job
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Compile Sketches
+      uses: arduino/compile-sketches@v1.1.0
+      with:
+        fqbn: arduino:mbed_nano:nano33ble
+        sketch-paths: |
+          - clases/clase-10/recetas/
+        cli-version: latest
+        platforms: |
+          - name: arduino:mbed_nano
+        libraries: |
+          - source-path: ./
+          - name: Servo
+          - name: Adafruit SSD1306
+          - name: Adafruit GFX Library
