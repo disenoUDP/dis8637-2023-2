@@ -30,7 +30,7 @@ int potenciometro(int pin) {
 
 // esta funcion nos entrega el valor de la entrada analogica mapeada (es decir entre un minimo y maximo)
 int potenciometroMap(int pin, int min, int max) {
-  return map(potenciometro(pin), 0, 1024, min, max);
+  return map(potenciometro(pin), 0, 1023, min, max);
 }
 
 // lo siguiente nos sirve para aplanar el rebote del valor obtenido
