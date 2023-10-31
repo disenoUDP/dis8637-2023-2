@@ -80,6 +80,10 @@ void evento() {
   }
 }
 
+// funcion para la jacinta, de pulsaciones por minuto a tiempo
+int corazon(int ppm){
+return 60000 / ppm;
+}
 
 int animLine(int dur, bool dir) {
   int time = millis() - inicio;
