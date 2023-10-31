@@ -90,7 +90,7 @@ void rutina(){
 
 // funcion para la jacinta, de pulsaciones por minuto a tiempo
 int corazon(int ppm){
-return 60000 / ppm;
+  return 60000 / ppm;
 }
 
 int animLine(int dur, bool dir) {
@@ -104,9 +104,13 @@ int animLine(int dur, bool dir) {
   }
   return funcion;
 }
+// funcion de la animacion cuadratica
 int animQuad(int dur, bool dir) {
+  // tiempo actual
   int current = millis() - inicio;
+  // ciclo repetitivo segun el tiempo actual
   int time = current % dur;
+  // valor maximo para ingresar en funcion
   int max = 32;
   int funcion = quadIn(map(time, 0, dur, 0, max));  // aca ponemos la funcion matematica que vamos a usar, como duracion es un valor muy alto lo mapee dentro de la funcion
   if (dir) {
