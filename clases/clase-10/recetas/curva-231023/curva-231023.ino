@@ -33,8 +33,12 @@ void setup() {
 void loop() {
   //Serial.print(millis()-inicio);
   Serial.println(valorAnim);
-
-  evento();
+if (boton(btn) && !ocurriendo){
+  inicio = millis();
+ocurriendo = true;
+}
+  if (ocurriendo)
+    rutina();
 
   analogWrite(3, valorAnim);
 
@@ -80,6 +84,10 @@ void evento() {
   }
 }
 
+void rutina(){
+ 
+}
+
 // funcion para la jacinta, de pulsaciones por minuto a tiempo
 int corazon(int ppm){
 return 60000 / ppm;
@@ -97,7 +105,8 @@ int animLine(int dur, bool dir) {
   return funcion;
 }
 int animQuad(int dur, bool dir) {
-  int time = millis() - inicio;
+  int current = millis() - inicio;
+  int time = current % dur;
   int max = 32;
   int funcion = quadIn(map(time, 0, dur, 0, max));  // aca ponemos la funcion matematica que vamos a usar, como duracion es un valor muy alto lo mapee dentro de la funcion
   if (dir) {
