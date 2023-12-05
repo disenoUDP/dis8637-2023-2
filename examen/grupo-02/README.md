@@ -1,3 +1,3 @@
-bugueño aguilera, javiera antonia
-núñez riquelme, martín ignacio
-villar poblete, manuel josé
+* bugueño aguilera, javiera antonia
+* núñez riquelme, martín ignacio
+* villar poblete, manuel josé

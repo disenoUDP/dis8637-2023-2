@@ -1,3 +1,3 @@
-aspee jorquera, daniela estefanía	5
-astorga villar, bárbara alejandra	5
-zavala bunster, lucas benjamín	5
+* aspee jorquera, daniela estefanía
+* astorga villar, bárbara alejandra
+* zavala bunster, lucas benjamín
