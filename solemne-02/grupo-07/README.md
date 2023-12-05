@@ -8,7 +8,22 @@
 
 ## descripción
 
+Este proyecto se inicia con el objetivo de mejorar la eficiencia y precisión en el conteo de personas que utilizan los torniquetes en la biblioteca de la Facultad de Arquitectura, Arte y Diseño de la Universidad Diego Portales. La biblioteca ya contaba con un contador de ingresos instalado en el arco de seguridad. Sin embargo, este sistema tenía una limitación: sólo registra el ingreso de personas que pasan por el torniquete de entrada, sin contabilizar  a las personas que ingresan a través del espacio de salida.
+
+Para abordar esta limitación, se planteó la necesidad de desarrollar un dispositivo llamado EVASENSOR. Este dispositivo se diseñó para emitir una alerta lumínica cada vez que se detectara una evasión de entrada por el lugar correspondiente a la salida. El funcionamiento de EVASENSOR se basa en el uso de dos sensores ultrasónicos con un rango de proximidad limitado a 40 centímetros. Estos sensores se colocan en los extremos internos del torniquete, a una distancia de 15 centímetros del suelo.
+
+El punto de partida de la persona que utiliza el torniquete es un factor crucial en la recopilación de datos de ingreso. Si el torniquete se utiliza correctamente, es decir, para salir, EVASENSOR no registrará ningún dato, ya que el uso es adecuado. Sin embargo, si lx usuarix intenta ingresar por la salida, EVASENSOR detectará esta evasión y emitirá una señal lumínica de alerta, indicando que el torniquete se está utilizando de manera incorrecta.
+
+Este sistema mejorado contribuye a una gestión más eficiente y segura del acceso al recinto.
+
 ## imágenes
+
+![protoboard](./imagenes/protoboard.jpg)
+
+![detalle](./imagenes/detalle.jpg)
+
+![montaje](./imagenes/montaje.jpg)
+
 
 ## código
 
