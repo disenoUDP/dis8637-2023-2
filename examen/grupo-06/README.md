@@ -12,4 +12,4 @@
 
 ## código
 
-https://github.com/disenoUDP/dis8637-2023-2/blob/3f75bc22111dadddbf3c862938c9218f4ba32e51/examen/grupo-06/codigo_libro/codigo_libro.ino
+https://github.com/disenoUDP/dis8637-2023-2/blob/d439c12d2d36c8957aaefe02e1321a20bb4081be/examen/grupo-06/codigo_libro/codigo_libro.ino#L1C1-L182C2
