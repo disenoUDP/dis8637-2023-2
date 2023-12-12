@@ -8,6 +8,8 @@
 
 ## descripción
 
+Objeto que tiene como función crear una rutina que propicie un buen descanso e higienizar el sueño.
+
 ## imágenes
 
 ## código
